@@ -1,10 +1,14 @@
 import React from 'react';
-import { Text, SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native';
 
-export default function App() {
-    return (
-        <SafeAreaView>
-            <Text>asdasdasd</Text>
-        </SafeAreaView>
-    );
-}
+import { Component1, Component2, Component3 } from './components/multi';
+import { styles } from './components/styles';
+
+export default () => (
+    <SafeAreaView style={styles.App}>
+        {/* <First /> */}
+        <Component1 />
+        <Component2 />
+        <Component3 />
+    </SafeAreaView>
+);
