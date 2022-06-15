@@ -4,7 +4,8 @@ import { SafeAreaView } from 'react-native';
 import { styles } from './components/styles';
 
 // import { Component1, Component2, Component3 } from './components/multi';
-import WithProps from './components/with-props';
+// import WithProps from './components/with-props';
+import RandomNumber from './components/random-number';
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -12,6 +13,7 @@ export default () => (
         {/* <Component1 />
         <Component2 />
         <Component3 /> */}
-        <WithProps min={10} max={20} />
+        {/* <WithProps min={10} max={20} /> */}
+        <RandomNumber min={10} max={20} />
     </SafeAreaView>
 );
