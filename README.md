@@ -37,3 +37,4 @@
     }
   }
 ```
+- copy assets folder to project root folder
