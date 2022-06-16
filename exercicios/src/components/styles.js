@@ -10,4 +10,7 @@ export const styles = StyleSheet.create({
     fontSize24: {
         fontSize: 24,
     },
+    fontSize18: {
+        fontSize: 18,
+    },
 });
