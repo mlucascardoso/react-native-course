@@ -11,7 +11,9 @@ import { styles } from './components/styles';
 // import Counter from './components/counter';
 // import DirectParent from './components/direct/parent';
 // import IndirectParent from './components/indirect/parent';
-import CounterV2 from './components/counter/counter';
+// import CounterV2 from './components/counter/counter';
+import Family from './components/relationship/family';
+import FamilyMember from './components/relationship/member';
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -26,6 +28,11 @@ export default () => (
         {/* <Counter initialValue={10} /> */}
         {/* <DirectParent /> */}
         {/* <IndirectParent /> */}
-        <CounterV2 />
+        {/* <CounterV2 /> */}
+        <Family>
+            <FamilyMember firstName="Cuka" lastName="da Silva" />
+            <FamilyMember firstName="Cuka2" lastName="da Silva" />
+            <FamilyMember firstName="Cuka23" lastName="da Silva" />
+        </Family>
     </SafeAreaView>
 );
