@@ -8,7 +8,8 @@ import { styles } from './components/styles';
 // import RandomNumber from './components/random-number';
 // import Fragment from './components/fragment';
 // import Button from './components/button';
-import Counter from './components/counter';
+// import Counter from './components/counter';
+import DirectParent from './components/direct/parent';
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -20,6 +21,7 @@ export default () => (
         {/* <RandomNumber min={10} max={20} /> */}
         {/* <Fragment title="Cuka" subTitle="delas" /> */}
         {/* <Button /> */}
-        <Counter initialValue={10} />
+        {/* <Counter initialValue={10} /> */}
+        <DirectParent />
     </SafeAreaView>
 );
