@@ -9,7 +9,8 @@ import { styles } from './components/styles';
 // import Fragment from './components/fragment';
 // import Button from './components/button';
 // import Counter from './components/counter';
-import DirectParent from './components/direct/parent';
+// import DirectParent from './components/direct/parent';
+import IndirectParent from './components/indirect/parent';
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -22,6 +23,7 @@ export default () => (
         {/* <Fragment title="Cuka" subTitle="delas" /> */}
         {/* <Button /> */}
         {/* <Counter initialValue={10} /> */}
-        <DirectParent />
+        {/* <DirectParent /> */}
+        <IndirectParent />
     </SafeAreaView>
 );
