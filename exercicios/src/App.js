@@ -10,7 +10,8 @@ import { styles } from './components/styles';
 // import Button from './components/button';
 // import Counter from './components/counter';
 // import DirectParent from './components/direct/parent';
-import IndirectParent from './components/indirect/parent';
+// import IndirectParent from './components/indirect/parent';
+import CounterV2 from './components/counter/counter';
 
 export default () => (
     <SafeAreaView style={styles.App}>
@@ -24,6 +25,7 @@ export default () => (
         {/* <Button /> */}
         {/* <Counter initialValue={10} /> */}
         {/* <DirectParent /> */}
-        <IndirectParent />
+        {/* <IndirectParent /> */}
+        <CounterV2 />
     </SafeAreaView>
 );
